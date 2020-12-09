@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,span,ul,li{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+/* Header section css */
+.header {
+	margin: 10px 25px 0 0;
+}
+.main-header{
+    text-align: right;
+}
+.main-header ul{
+    list-style: none;
+}
+.main-header ul li{
+    display: inline-block;
+}
+.main-header ul li .sign-in {
+	color: #fff;
+	background: #4684ed;
+	display: inline-block;
+	padding: 6px 16px;
+	font-size: 15px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.main-header ul li .sign-in :hover{
+    text-decoration: none;
+
+}
+.main-header ul li a {
+	color: #212121;
+	display: inline-block;
+	padding: 0 4px;
+}
+.main-header ul li a:hover{
+    text-decoration: underline;
+}
+.main-header ul li a .menu-img {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+}
+
+/* Main Search section */
+.search{
+}
+.main-search{
+    width: 580px;
+    text-align: center;
+    margin: 150px auto auto auto;
+}
+.google-logo {
+	background: url(./img/google_logo.png) no-repeat center center;
+	background-size: 300px 100px;
+	height: 120px;
+	width: 100%;
+	margin: auto;
+}
+.google-logo h4 {
+	color: #4285f4;
+	position: relative;
+	top: 90px;
+	left: 117px;
+	font-size: 16px;
+}
+.mid-search{
+    position: relative;
+}
+.mid-search input {
+	border-radius: 20px;
+	padding: 8px 40px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+.mid-search span {
+	position: relative;
+	top: -43px;
+	left: -267px;
+	color: #767676;
+}
+
+.mid-search .search-keyboard img {
+	height: auto;
+	width: 35px;
+	position: absolute;
+	top: 10px;
+	left: 529px;
+}
+.main-search .hover {
+	color: #212121;
+	display: inline-block;
+	background: #f8f8f8;
+	padding: 7px 20px;
+	font-weight: 400;
+	font-size: 15px;
+	border-radius: 10px;
+    margin: 6px;
+    border: 1px solid transparent;
+}
+.main-search .hover:hover{
+    border: 1px solid #ddd;
+}
+.google-offer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.google-offer p {
+	font-size: 15px;
+	margin-right: 10px;
+}
+.google-offer a{
+    font-size: 15px;
+}
+.google-offer a:hover{
+    text-decoration: underline;
+}
+
+/* Footer section css */
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+.footer-top{
+    border-top: 1px solid #ddd;
+}
+.footer-top p{
+    margin-bottom: 0;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #6f6f6f;
+    font-weight: 300;
+}
+.footer-bottom{
+    border-top: 1px solid #ddd;
+}
+.footer-bottom{
+}
+.footer-b-left{
+    float: left;
+    width: 50%;
+}
+.footer-b-left ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.footer-b-left ul:nth-child(2){
+    text-align: right;
+}
+.footer-b-left ul li{
+    display: inline-block;
+}
+.footer-b-left ul li a{
+    font-size: 18px;
+    color: #6f6f6f;
+    font-weight: 300;
+    display: inline-block;
+    padding: 10px 0;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.footer-b-left ul li a:hover{
+    text-decoration: underline;
+}
+.footer-bottom .f-right {
+	text-align: right;
+	position: relative;
+	right: 28px;
+}
+
+
+/* Finally Done!!! */
+
+/* Google Home Page made by _ Md Rayhan Kobir */
